@@ -1,0 +1,49 @@
+.category {
+
+	background-color: $blco;
+
+
+	li {
+		color: $muted;
+
+	}
+
+	a {
+		color: $muted;
+		font-family: 'Open-Sans-Condensed', 'Playfair-Display' !important;
+	}
+
+	.navbar-inverse .navbar-nav > li > a {
+    color: $muted;
+    font-size: 1.2em;
+    font-weight: lighter;
+    font-family: 'Open-Sans-Condensed', 'Playfair-Display', impact !important;
+	padding-top: 2em !important;
+	}
+
+	.navbar-toggle {
+		background-color: $orange !important;
+		border-color: $orange2 !important; 
+	}
+
+	.active {
+		color: $orange2 !important;
+	}
+
+	.header_bottom_area {
+		background-color: $orange2;
+		height: 15px;
+	}
+
+	.categories {
+		color: $gris2 !important;
+	}
+
+}
+
+
+.post1 {
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+

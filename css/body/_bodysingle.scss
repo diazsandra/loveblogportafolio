@@ -1,0 +1,30 @@
+#body {
+	padding: $dos;
+	color: $ngro !important;
+
+	.well {
+		width: 230px;
+		height: 230px;
+		padding: 3px !important;
+	}
+
+	.p {
+		padding-left: $cinco;
+		color: $ngro !important;
+		font-family: 'Open-Sans-Condensed', sans-serif !important;
+	}
+	
+	p {
+		color: $ngro !important;
+		font-family: 'Open-Sans-Condensed', sans-serif !important;
+	}
+
+	.quote {
+		margin-left: 5%;
+		padding-right: 5%;
+		border-left: 4px $orange solid !important;
+		color: $orange3;
+		font-family: 'Open-Sans-Condensed', sans-serif !important;
+	}	
+}
+

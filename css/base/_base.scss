@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic);
+
+h1, h2, h3, h4, h4, h6 {
+	color: $orange;
+}
+
+* {
+	color: $muted;
+	font-family: 'Open-Sans-Condensed', sans-serif;
+}
+
+
+
+/* Barra inicio*/
+.barraheader {
+	background-color: $orange2;
+	.divblco {
+		background-color: $blco;
+		.orangeheader {
+			background-color: $orange;
+			margin-right: 10px;
+			margin-left: 10px;
+			color: $blco;
+			padding-bottom: 2%;
+			padding-left: 1%;
+			font-family: fantasy !important; 
+			font-weight: lighter !important;
+			font-size: 2em !important;
+		}
+
+	}
+}
+
+/*Columna derecha*/
+
+.x {
+	padding-right: 10px; 
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+#lineband {
+	background-image: url(../images/heading-bg.png);
+	width: 100%;
+	margin-right: 10px !important;
+
+	.smalltitles {
+		background-color: $blco;
+		color: $orange;
+		width: 40%;
+		font-family: fantasy !important;
+		font-weight: lighter !important; 
+	/*Revisar por qué no aparecen el color y fuente*/
+	p {
+		color: $ngro !important;
+	}
+}
+}
+}
+
+.list {
+	padding-left: 0 !important;
+	li {
+		color: $ngro; 
+		font-family: 'Open-Sans-Condensed', sans-serif;
+	}
+}
+
+#photogallery {
+	
+	.thumbnail {
+		padding: 0 !important;
+		border: 1px $orange solid !important;
+		width: 48px !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important; 
+
+	}	
+}

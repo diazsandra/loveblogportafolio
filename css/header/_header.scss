@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic);
+
+
+header {
+
+	background-color: $blco;
+
+
+	.blog {
+		color: $orange2;
+		font-family: arial, 'Open-Sans-Condensed', 'Playfair-Display' !important;
+	}
+
+	li {
+		color: $muted;
+
+	}
+
+	a {
+		color: $muted;
+		font-family: 'Open-Sans-Condensed', 'Playfair-Display' !important;
+	}
+
+	.navbar-inverse .navbar-nav > li > a {
+    color: $muted;
+    font-size: 1.2em;
+    font-weight: lighter;
+    font-family: 'Open-Sans-Condensed', 'Playfair-Display', impact !important;
+	padding-top: 2em !important;
+	}
+
+	.navbar-toggle {
+		background-color: $orange !important;
+		border-color: $orange2 !important; 
+	}
+
+	.active {
+		color: $orange2 !important;
+	}
+
+	.header_bottom_area {
+		background-color: $orange2;
+		height: 15px;
+	}
+
+}

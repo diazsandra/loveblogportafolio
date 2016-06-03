@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic);
+
+/*Revisar los iconos del carrusel!!*/
+
+.ei-slider-large {
+	img {
+		width: $cien;
+	}
+}
+
+.btn-warning {
+	background-color: $orange !important;
+}
+
+.icon {
+	padding-top: 8%;
+}
+
+.icon-title {
+	h2 {
+		font-size: 1.5em;
+		font-family: fantasy !important;
+		font-weight: lighter !important;
+		text-transform: uppercase;
+	}
+}
+
+h2 {
+	span {
+		color: $orange !important;
+		font-size: .8em;
+		font-family: fantasy !important;
+		font-weight: lighter !important;
+		text-transform: uppercase;
+	}
+}
+
+.line {
+	width: 100%; 
+	background-color: $gris;
+	div {
+		width: 15%;
+		background-color: $blco;
+	}
+}
+
+.post {
+	padding-top: $cinco;
+	padding-bottom: $cinco;
+}
+
+.single_blog_post, .single_work {
+	width: 100%;
+	img {
+		width: 100%;
+	}
+
+	.well {
+		background-color: $blco !important;
+		padding-top: 2% !important;
+		padding-bottom: 2% !important;
+	}
+
+	.blog_post_meta {
+		h3 {
+		color: $muted !important;
+		font-size: 1.5em;
+		font-family: fantasy !important;
+		font-weight: lighter !important; 
+		text-transform: uppercase;
+		}
+	}
+}
+
+/* SLIDER */
+
+.item {
+	height: 500px;
+}
+
+.itemblog {
+	height: 350px !important;
+}
+
+@media (min-width: 300px) and (max-width: 650px) {
+	.item {
+	height: 200px !important;
+}
+}
